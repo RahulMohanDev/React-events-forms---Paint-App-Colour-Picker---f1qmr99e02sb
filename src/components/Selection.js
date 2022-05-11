@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Child.css";
 
-export default function ({ applyColor }) {
+export default function Selection({ applyColor }) {
   const [style, setStyle] = React.useState({ background: "" });
   return (
     <div
